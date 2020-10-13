@@ -24,11 +24,12 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import Login from './components/Login';
+import ImagePicker from "./components/ImagePicker"
 
 const App: () => React$Node = () => {
   return (
     <>
-      <Login />
+      <ImagePicker />
     </>
   );
 };
